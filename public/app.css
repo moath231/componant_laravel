@@ -1,0 +1,72 @@
+body{
+    background-color: white;
+    max-width: 650px;
+    margin: auto;
+}
+
+article h1{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+article p{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    text-decoration: none;
+    margin-right: 30px;
+    background-color: aqua;
+    padding: 5px 10px;
+    border-radius: 9px;
+    box-shadow: 0 0 10px 0 black;
+    transition: all 0.1s ease-in-out;
+}
+nav ul li:active{
+    box-shadow: 0 0 2px 0 black;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.formsginup{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    gap: 15px;
+    margin: auto;
+    padding-top: 90px;
+}
+.formsginup label{
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    color: #999;
+}
+.formsginup label input{
+    padding: 7px;
+    color: #777;
+    font-size: 17px;
+}
+.formsginup input[type="submit"]{
+    width: fit-content;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    margin: auto;
+    background-color: #00fe;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
